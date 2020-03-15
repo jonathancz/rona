@@ -6,6 +6,5 @@ export default function IndexPage() {
     return <div>
         <Stats url="https://covid19.mathdro.id/api"></Stats>
         <CountrySelector></CountrySelector>
-        <Stats url="https://covid19.mathdro.id/api/countries/USA"></Stats>
     </div>
 }
